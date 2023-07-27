@@ -1,0 +1,674 @@
+.Container-multi {
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.flex-wrapper {
+    display: flex;
+    /* Hinzugefügt, damit Elemente bei Bedarf umbrechen können */
+}
+
+.homepage-container .Container-multi .flex-wrapper.row01 {
+    min-height: 670px;
+    align-items: center;
+}
+
+.homepage-container .Container-multi .flex-wrapper.row01 .flex-section {
+    max-width: 560px;
+}
+
+.h1-inverse {
+    font-family: var(--font-rubik);
+    font-size: 46px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+.h5 {
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: var(--black);
+}
+
+.text-inverse {
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: white;
+}
+
+.homepage-container .Container-multi .flex-wrapper.row02 {
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: top;
+}
+
+.homepage-container {
+
+    background-color: var(--black);
+    padding: 0 !important;
+    position: relative;
+}
+
+.homepage-container .Container-multi {
+    max-width: 1500px;
+    z-index: +1;
+    position: relative;
+}
+
+.homepage-container .Container-multi .flex-wrapper.row02 .flex-section .img-wrapper {
+    margin-bottom: 16px;
+}
+
+.homepage-container .Container-multi .row02 .flex-section {
+    background: white;
+    border-radius: 20px;
+    max-width: 290px;
+    box-shadow: 0 2px 5px 0 rgba(209, 213, 219, .2);
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.homepage-container .Container-multi .flex-wrapper.row02 .flex-section .content-wrapper {
+    text-align: center;
+    padding: 0 20px 10px 20px;
+}
+
+
+
+/* Aktualisierte Responsive Design für Tablets und kleinere Bildschirme */
+@media screen and (max-width: 1420px) {
+    .homepage-container .Container-multi .flex-wrapper.row02 {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .homepage-container .Container-multi .flex-wrapper.row02 .flex-section {
+        max-width: calc(50% - 20px);
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .homepage-container .Container-multi .flex-wrapper.row01 {
+        min-height: 420px;
+    }
+
+    .homepage-container .Container-multi .flex-wrapper.row01 .flex-section {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .homepage-container .Container-multi .flex-wrapper.row02 {
+        max-width: 570px;
+    }
+
+    .homepage-container .Container-multi .flex-wrapper.row02 .flex-section {
+        margin-bottom: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .homepage-container .Container-multi {
+        max-width: 100%;
+    }
+
+    .homepage-container .Container-multi .flex-wrapper.row02 {
+        max-width: 480px;
+    }
+
+    .Container-multi {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .homepage-container .Container-multi .flex-wrapper.row02 .flex-section .content-wrapper {
+        padding: 0 10px 20px;
+    }
+
+}
+
+/* Controller Carousell */
+
+
+.controllerContainer {
+    max-width: 1200px;
+    padding: 2rem 10px;
+    margin: auto;
+}
+
+.flex__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex__image {
+    justify-content: center;
+}
+
+.button__controller {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 25px;
+    margin: 1rem auto;
+}
+
+.h3__style {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.red {
+    color: var(--button-text-color);
+    border-color: var(--button-background);
+    background-color: #E50021 !important;
+}
+
+.controllerContainer h2,
+.controllerContainer h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.controllerContainer h2 {
+    margin-bottom: 5px;
+}
+
+.controllerContainer h5 {
+    font-weight: lighter;
+    color: #808080;
+}
+
+.image__mobile {
+    display: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .flex__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image__desktop {
+        display: none;
+    }
+
+    .image__mobile {
+        display: block;
+    }
+
+    .controllerContainer {
+        padding: 50px 2rem;
+    }
+}
+
+/* Klarna Section  */
+
+.king__container {
+    padding: 3% 0;
+
+    position: relative;
+}
+
+.king__flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #8ce0ff;
+    border-radius: 25px;
+    padding: auto 10rem;
+
+    overflow: hidden;
+}
+
+.king__image {
+    display: block;
+    width: 40%;
+}
+
+.king_imagemob {
+    display: none;
+}
+
+.king__heading-container {
+    margin: auto;
+    width: 50%;
+}
+
+.king__heading-container>h2 {
+    line-height: 3rem;
+}
+
+.king__h1 {
+    margin: 0;
+}
+
+.king__h1::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 0.1rem;
+    width: 100%;
+
+    margin: 1rem 0;
+}
+
+.king__h3 {
+    margin: 0;
+}
+
+.king__klarnalogo {
+    width: 20rem;
+
+    position: absolute;
+    right: 15%;
+    top: 2%;
+}
+
+/* Responsive: 1200px */
+
+@media (min-width: 1440px) {
+    .king__klarnalogo {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .king__h2 {
+        font-size: 0.9rem;
+    }
+
+    .king__h3 {
+        font-size: 0.7rem;
+    }
+
+    .king__klarnalogo {
+        width: 8rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .king__container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .king__flexbox {
+        border-radius: 0;
+        justify-content: space-between;
+    }
+
+    .king__image {
+        display: none;
+    }
+
+    .king_imagemob {
+        display: block;
+
+        width: 40%;
+    }
+
+    .king__heading-container {
+        margin-bottom: 3rem;
+        margin-left: 0;
+        margin: 1rem;
+    }
+
+    .king__klarnalogo {
+        width: 7rem;
+
+        right: 3%;
+        top: 3%;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .king__h1 {
+        font-size: 0.8rem;
+    }
+
+    .king__h3 {
+        font-size: 0.7rem;
+    }
+
+    .king__klarnalogo {
+        width: 5rem;
+        top: -5%
+    }
+}
+
+@media (max-width: 300px) {
+
+    .king__h1 {
+        font-size: 0.3rem;
+    }
+
+    .king__h3 {
+        font-size: 0.3rem;
+    }
+
+    .king__klarnalogo {
+        width: 3rem;
+    }
+}
+
+/* Klarna Section END */
+
+/* King Info Section Start */
+.white {
+    color: white;
+}
+
+.king__infocontainer h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.king__infoflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.king__info-h3 {
+    text-align: center;
+    font-size: 0.8rem;
+
+    margin: 0;
+}
+
+.king__info-images {
+    display: block;
+
+    margin: auto;
+    width: 50%;
+}
+
+.king__info-h3 {
+    font-size: 0.8rem;
+}
+
+.king__info-p {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 1.5rem 0.5rem;
+    line-height: 1.6rem;
+}
+
+.king__buttongrey {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+
+    color: #8E8E8E;
+    text-decoration: none;
+    text-align: center;
+
+    width: 40%;
+    background-color: #363636;
+    border-radius: 0.7rem;
+}
+
+/*Responsive 300px */
+
+@media (min-width: 300px) {
+
+    .king__info-h3 {
+        font-size: 1.5rem;
+    }
+
+    .king__info-p {
+        font-size: 1rem;
+    }
+
+    .king__buttongrey {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .king__infoflex {
+        flex-direction: row;
+    }
+
+    .king__info-ft1 {
+        width: 32%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .king__info-h3 {
+        font-size: 1.1rem;
+    }
+
+    .king__info-p {
+        font-size: 1.1rem;
+    }
+}
+
+/* King Info Section END */
+
+/* Twit Section */
+.container {
+    padding: 0;
+    max-width: 1200px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        border-radius: 0;
+    }
+}
+
+.twit_blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twit_block {
+    width: 50%;
+    margin: 2rem;
+}
+
+.thumb_img {
+    width: 40%;
+    clip-path: circle(40%);
+
+    position: absolute;
+    right: 10%;
+    bottom: -10%;
+}
+
+.kingafter::after {
+    content: "";
+    display: block;
+    background-color: #232323;
+    width: 100%;
+    height: 0.3rem;
+
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0;
+    }
+
+    .twit_block {
+        width: 100%;
+    }
+}
+
+/* Twit Section End */
+
+/* King Produktpage Start */
+
+
+
+.FeatureText--withImageking {}
+
+.FeatureText--imageking {}
+
+@media screen and (min-width: 1008px) {
+    .FeatureText--withImageking {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* King Produktpage END */
+
+/*PAYMENTS LIST*/
+.king__paymentslist {
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    max-width: 95%;
+    justify-content: space-between;
+}
+
+.king__paymentslist-img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+/*PAYMENTS LIST END */
+
+/*BENEFITS BLOCK*/
+.king__benefits {
+    display: flex;
+    width: 95%;
+}
+
+.king__benefits-block {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F7;
+    width: 100%;
+    margin: 0.1rem;
+    padding: 5px 10px;
+}
+
+.king__benefits-block p {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.king__benefits-img {
+    display: block;
+    margin-right: 8px;
+    width: 35px;
+}
+
+@media (max-width: 768px) {
+    .king__benefits {
+        flex-direction: column;
+    }
+}
+
+
+    /*BENEFITS BLOCK END*/
+
+    /* Sales BLOCK */
+    .king_salesbox {
+        background-color: #F5F5F7;
+        max-width: 1200px;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+
+    }
+
+    .king_salesbox h2,
+    .king_salesbox h5 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .king_salesbox_container {
+        background-color: #232323;
+    }
+
+    .king__salesboxflex {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .king__salesboxflex-div {
+        flex-basis: calc(33.33% - 20px);
+    }
+
+    .black {
+        color: #232323;
+    }
+
+    .size {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    @media (max-width: 768px) {
+
+        .king_salesbox {
+            width: 97%;
+        }
+
+        .king_salesbox h5 {
+            font-size: 0.7rem;
+        }
+
+        .size {
+            font-size: 2rem;
+        }
+    }
+
+    /* Sales BLOCK END */

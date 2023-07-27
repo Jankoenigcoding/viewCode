@@ -1,0 +1,59 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+
+<div class="king__container Section--spacingNormal">
+  <div class="king__flexbox">
+    <img
+      class="king__image"
+      src="https://cdn.shopify.com/s/files/1/0586/7818/2046/files/klarna_image.jpg?v=1684326933"
+      alt="kingklarnacontroller">
+
+    <img
+      class="king_imagemob"
+      src="https://cdn.shopify.com/s/files/1/0586/7818/2046/files/klarna_imagehalf.png?v=1684496616"
+      alt="kingklarna">
+    <div class="king__heading-container">
+      {% if section.settings.heading_klarnasection %}
+        <h2 class="king__h1 SectionHeader__Heading Heading u-h1">
+          {{ section.settings.heading_klarnasection }}
+        </h2>
+      {% endif %}
+
+      {% if section.settings.heading_klarnasection %}
+        <h5 class="king__h3">
+          {{ section.settings.subtitle_klarnasection }}
+        </h5>
+      {% endif %}
+      <img
+        class="king__klarnalogo"
+        src="https://cdn.shopify.com/s/files/1/0586/7818/2046/files/Klarna_logo.png?v=1684328782"
+        alt="kingklarna">
+    </div>
+
+    <img
+      class="king__klarnalogo"
+      src="https://cdn.shopify.com/s/files/1/0586/7818/2046/files/Klarna_logo.png?v=1684328782"
+      alt="kingklarna">
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Klarna Section",
+    "settings": [
+      {
+        "id": "heading_klarnasection",
+        "label": "Heading",
+        "type": "text"
+      }, {
+        "id": "subtitle_klarnasection",
+        "label": "Subtitle",
+        "type": "text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Klarna Section"
+      }
+    ]
+  }
+{% endschema %}

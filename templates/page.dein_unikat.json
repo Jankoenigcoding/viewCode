@@ -1,0 +1,232 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1b68c048-1168-4cb3-9ab1-e10bd8ba3ac3": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/KC-Logo-big-B.png",
+        "title": "PLAY LIKE A KING.",
+        "text": "<p>King Controller - Controller Manufaktur seit 2014.<\/p>"
+      }
+    },
+    "8c729def-bbfb-4809-85ea-23f581cf2751": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17924719640843__8c729def-bbfb-4809-85ea-23f581cf2751-16860316664b428ed6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joa.png",
+            "mobile_image": "shopify:\/\/shop_images\/entrymob.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "DEIN UNIKAT",
+            "title": "Gestalte deinen King Controller ganz nach deinen individuellen Vorstellungen und Designs.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17924719640843__8c729def-bbfb-4809-85ea-23f581cf2751-16860316664b428ed6-0"
+      ],
+      "custom_css": [
+        "a {border-radius: 30px; padding: 0 2rem; margin: 0 6rem 0 6rem;}",
+        ".u-h1 {font-size: 1rem !important; margin: 0 6rem 0 6rem;}",
+        "h3 {font-size: 3rem; font-weight: bold; margin: 0 6rem 0 6rem;}",
+        "@media (max-width: 768px) {h2, h3 {text-align: center; margin: 0; } .u-h1 {margin: 0; } a {margin: 0 auto; }}"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "6511dfe3-ead8-45fb-a78d-6b88c85d5401": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/frontcase.png",
+        "title": "Das Frontcase",
+        "text": "<p>Beim ersten Blick fällt das Obercase sofort ins Auge. Wir bieten eine große Auswahl an schlichten und bunten Designs, aus denen du wählen kannst. Am besten suchst du dir zu Beginn dein Wunsch-Case aus und baust deinen King Controller nach deinen Vorlieben darauf auf.<\/p>"
+      }
+    },
+    "29335327-c279-4d4b-8e8f-b11d86dfc128": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/backcase.png",
+        "title": "Das Backcase",
+        "text": "<p>Wähle aus verschiedenen Farben dein Backcase aus und gönn dir dazu den passenden Pro-Grip, der für den optimalen Halt sorgt. Der Pro-Grip ist mit einer Softtouch-Schicht überzogen und bietet ein angenehmes Griffgefühl. Mit diesem Grip wird keine deiner Bewegungen mehr abweichen und du wirst in der Lage sein, jede Reaktion punktgenau zu landen.<\/p>"
+      }
+    },
+    "8a9f17e1-872f-4e34-8aff-080eb261e1e8": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/paddles.png",
+        "title": "Die Paddle",
+        "text": "<p>Paddles sind zusätzliche Tasten, die an der Rückseite des Controllers befestigt werden. Sie ermöglichen es, deine Daumen permanent auf den Swap-Sticks zu lassen, wodurch sich deine Reaktionszeit verringert.<br\/><br\/>Standardmäßig sind die Paddles mit den Aktionstasten belegt. Bei den PS4 Curved-Paddles sind es X & O, bei den X\/S Alu-Paddles sind es A & B. Die PS5 Quad-Curved-Paddles sind mit allen Aktionstasten belegt.<\/p>"
+      }
+    },
+    "88baada9-3ff0-4070-a127-63fe3dbf3e9d": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/remap.png",
+        "title": "Remappen",
+        "text": "<p>Wenn du im Konfigurator oder bei einem Classic Modell die Remap-Funktion ausgewählt hast, kannst du die Paddle-Taster ganz einfach selbst programmieren.<br\/><br\/>Mit jeder Bestellung erhältst du eine Gebrauchsanweisung, in der du eine Schritt-für-Schritt-Anleitung zum Programmieren der Tasten findest. Falls du die Anleitung verlierst, mach dir keine Sorgen! In unserem Hilfe-Center unter \"Controller Guide\" findest du auch eine Kopie der Anleitung.<\/p>"
+      }
+    },
+    "f8be43e7-137e-4de6-9eb4-c69b04b58572": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/swapstick.png",
+        "title": "Die Swapsticks",
+        "text": "<p>Wenn du es satt hast, deine Daumen zu verkrampfen, wenn du die Swap-Sticks verwendest, haben wir die Lösung für dich! Wir haben auch passende Swap-Sticks für deine \"Riesen-Pranken\"! Lass deiner Kreativität freien Lauf und wähle aus einer großen Auswahl an Farben, Formen und Größen die perfekten Swap-Sticks für deinen Controller aus, um die optimalen Bedingungen für deine Gaming-Session zu schaffen.<\/p>"
+      }
+    },
+    "ca10c25d-ad78-47ef-aca8-96def9456ca0": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS4_TriggerStop.png",
+        "title": "Die Trigger",
+        "text": "<p>Dank des Trigger-Sets fühlt es sich an, als würde man eine Maustaste betätigen, wenn man die Tasten R1+L1+R2+L2 verwendet. Mit den Smart-Triggern hast du bei R2+L2 einen Klick-Effekt, wenn du sie kurz betätigst, aber du kannst sie auch weiterhin bis zum Anschlag durchdrücken, wenn du das bevorzugst. GGWP!<\/p>"
+      }
+    },
+    "4a82ba6f-c8dc-4fdc-85c1-9e94579410d2": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/gamer-tag.png",
+        "title": "Gamertag",
+        "text": "<p>Wenn du nach mehr Optionen suchst und wirklich einen einzigartigen King Controller haben möchtest, dann kannst du deinen Gamer-Namen auf den Controller drucken lassen!<\/p>"
+      }
+    },
+    "1d7d5dcf-696f-4247-98f6-a7eed9b73bd1": {
+      "type": "king-info",
+      "blocks": {
+        "9db654de-6fc6-4cae-a954-84a8fbe33d80": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/paddles.png",
+            "title": "PICK IT!",
+            "controller_infoblock_txt": "<p>Jede Bestellung wird individuell gepickt. Aus unserem Lager mit tausenden von Einzelteilen werden deine herausgesucht und wie ein Bausatz in einem Behälter zusammengeführt. <\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "6a693d50-127c-4020-93a0-9e62c3b8b783": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/5.png",
+            "title": "BUILD IT!",
+            "controller_infoblock_txt": "<p>Der Behälter mit deinen Einzelteilen wird nun einen Modifikations-Mitarbeiter übergeben und er baut deinen King Controller zusammen. Nachdem zusammenbauen wird dieser erstmals via Software auf seinen Funktionen getestet.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "6c43d2bb-4a54-4574-af35-ff455db2a634": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/remap.png",
+            "title": "DOUBLE CHECK!",
+            "controller_infoblock_txt": "<p>Jeder King Controller wird in einem Double-Check kontrolliert und getestet. Nachdem er bereits einmal überprüft wurde, wird er erneut durch unsere Produktion, direkt an der Konsole, ausgiebig getestet und geprüft.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "9db654de-6fc6-4cae-a954-84a8fbe33d80",
+        "6a693d50-127c-4020-93a0-9e62c3b8b783",
+        "6c43d2bb-4a54-4574-af35-ff455db2a634"
+      ],
+      "settings": {
+        "heading_king_info": "JETZT SIND WIR DRAN!",
+        "controller_infoblock_btn": "",
+        "controller_infoblock_btnlink": "",
+        "background_color": "",
+        "background_color_outside": "",
+        "text_color": "#000000"
+      }
+    },
+    "f48cf648-bffb-4808-8689-dddbc33fbb4c": {
+      "type": "controller-carousel",
+      "blocks": {
+        "b3197ae7-af90-4258-87a6-4cc2c2926394": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/PS4-Konfibild-frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/PS4-Konfibild-frontal.png",
+            "title": "PLAYSTATION 4",
+            "controller_block_btntxt": "KONFIGURIEREN",
+            "controller_block_btnlink": "shopify:\/\/collections\/ps4-konfigurator-controller"
+          }
+        },
+        "bb6f1f49-65aa-49db-938b-7d4cddd181ff": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/PS5-Konfibild_frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/PS5-Konfibild_frontal.png",
+            "title": "PLAYSTATION 5",
+            "controller_block_btntxt": "KONFIGURIEREN",
+            "controller_block_btnlink": "shopify:\/\/collections\/ps5-konfigurator-controller"
+          }
+        },
+        "a3e0949d-94fc-493f-892d-e8b92b32b160": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Xbox-Konfibild-frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/Xbox-Konfibild-frontal.png",
+            "title": "XBOX X\/S",
+            "controller_block_btntxt": "KONFIGURIEREN",
+            "controller_block_btnlink": "shopify:\/\/collections\/xbox-konfigurator-controller"
+          }
+        }
+      },
+      "block_order": [
+        "b3197ae7-af90-4258-87a6-4cc2c2926394",
+        "bb6f1f49-65aa-49db-938b-7d4cddd181ff",
+        "a3e0949d-94fc-493f-892d-e8b92b32b160"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading_controllercarousell": "STARTE JETZT DEINE KONFIGURATION",
+        "subtitle_controllercarousell": "INDIVIDUALISIERE DEINEN PS4, PS5 ODER XBOX CONTROLLER.",
+        "background_color": "#232323",
+        "background_color_outside": "#232323"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1b68c048-1168-4cb3-9ab1-e10bd8ba3ac3",
+    "8c729def-bbfb-4809-85ea-23f581cf2751",
+    "6511dfe3-ead8-45fb-a78d-6b88c85d5401",
+    "29335327-c279-4d4b-8e8f-b11d86dfc128",
+    "8a9f17e1-872f-4e34-8aff-080eb261e1e8",
+    "88baada9-3ff0-4070-a127-63fe3dbf3e9d",
+    "f8be43e7-137e-4de6-9eb4-c69b04b58572",
+    "ca10c25d-ad78-47ef-aca8-96def9456ca0",
+    "4a82ba6f-c8dc-4fdc-85c1-9e94579410d2",
+    "1d7d5dcf-696f-4247-98f6-a7eed9b73bd1",
+    "f48cf648-bffb-4808-8689-dddbc33fbb4c"
+  ]
+}

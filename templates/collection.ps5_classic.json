@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "e9ea07a1-9f76-42a8-9759-73dad3702a96": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17920229441803__e9ea07a1-9f76-42a8-9759-73dad3702a96-1684907349b990e3a7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BannerPS5DT2_a78e659c-f5b7-4f10-b57b-3c7902810b07.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BannerPS5MOB.png",
+            "apply_overlay": true,
+            "content_position": "middleLeft",
+            "subheading": "PS5 CLASSICS",
+            "title": "VIELFALT DIE BEGEISTERT",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17920229441803__e9ea07a1-9f76-42a8-9759-73dad3702a96-1684907349b990e3a7-0"
+      ],
+      "custom_css": [
+        "a {border-radius: 30px; padding: 0 2rem;}",
+        ".u-h1 {font-size: 1rem !important; margin: 0;}",
+        "h3 {font-size: 3rem; font-weight: bold; margin: 0;}",
+        "@media (max-width: 768px) {h2, h3 {text-align: center; } a {margin: 0 auto; }}"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        "header {display: none;}",
+        "section {margin: 0 0 2rem 0; padding: 0;}"
+      ],
+      "settings": {
+        "show_collection_info": true,
+        "show_collection_image": false,
+        "apply_overlay": true,
+        "show_color_swatch": false,
+        "show_vendor": false,
+        "collection_image_size": "normal",
+        "show_sort_by": false,
+        "show_layout_switch": false,
+        "toolbar_position": "top",
+        "show_filters": false,
+        "show_filter_color_swatch": true,
+        "expand_filters": true,
+        "filter_position": "drawer",
+        "filter_menu": "",
+        "grid_items_per_page": 48,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "55c8f141-a53c-4c57-8529-84af8a74a11a": {
+      "type": "king-info",
+      "blocks": {
+        "429ca71c-ee08-4b13-a392-06b9c5b6c4a3": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/quality.png",
+            "title": "Highest Quality",
+            "controller_infoblock_txt": "<p>Unsere Controller werden mit größter Qualität und Sorgfalt produziert.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "c5b27119-b85c-4ac2-a7e4-c71fdba4ff51": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/madeinger.png",
+            "title": "Made in Germany",
+            "controller_infoblock_txt": "<p>Unsere Controller werden lokal in Deutschland hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "de59f89b-8a78-43e5-9aaf-b3511a978aaf": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/passgenau.png",
+            "title": "Passgenau",
+            "controller_infoblock_txt": "<p>Durch sorgfältige und gründliche Arbeit sind King Controller passgenau für dich hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "429ca71c-ee08-4b13-a392-06b9c5b6c4a3",
+        "c5b27119-b85c-4ac2-a7e4-c71fdba4ff51",
+        "de59f89b-8a78-43e5-9aaf-b3511a978aaf"
+      ],
+      "custom_css": [
+        "h2 {color: #232323;}",
+        "@media (min-width: 768px) {.king__info-images {margin: 0; } h2, h3, p {text-align: left; } .king__info-p {margin: 1.5rem 0; }}"
+      ],
+      "settings": {
+        "heading_king_info": "Wieso King COntroller?",
+        "controller_infoblock_btn": "",
+        "controller_infoblock_btnlink": "shopify:\/\/pages\/so-wirds-gemacht",
+        "background_color": "#f5f5f7",
+        "background_color_outside": "#f5f5f7",
+        "text_color": "#000000"
+      }
+    },
+    "277076af-d9ed-4d73-9c45-e0b833ab0629": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}",
+        ".twit_block {margin: 0 3rem;}",
+        "@media (min-width: 768px) {img {width: 50%; }}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATEN ZAHLEN.",
+        "text": "<h3>Mit Klarna.<\/h3>"
+      }
+    },
+    "a49eb32f-3993-4f48-a3b5-7cbf62eb4750": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17920229441803__a49eb32f-3993-4f48-a3b5-7cbf62eb4750-1684998090397ba1ad-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BannerPS5KonfiguratorDT_5bed1b44-76bd-4805-9a44-a0f112bf6c59.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BannerPS5KonfiguratorMOB.png",
+            "apply_overlay": false,
+            "content_position": "middleLeft",
+            "subheading": "PS5 Konfigurator",
+            "title": "VIELFALT DIE BEGEISTERT",
+            "button_1_text": "ENTDECKEN",
+            "button_1_link": "shopify:\/\/products\/ps5-konfigurator",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17920229441803__a49eb32f-3993-4f48-a3b5-7cbf62eb4750-1684998090397ba1ad-0"
+      ],
+      "custom_css": [
+        "a {border-radius: 30px; padding: 0 2rem;}",
+        ".u-h1 {font-size: 1rem !important; margin: 0;}",
+        "h3 {font-size: 3rem; font-weight: bold; margin: 0;}",
+        "@media (max-width: 768px) {h2, h3 {text-align: center; } a {margin: 0 auto; }}"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#ffffff"
+      }
+    },
+    "3ce79a0d-c665-42c3-b4d4-ee79f829346b": {
+      "type": "seo-block",
+      "blocks": {
+        "ffdf386d-9396-4f63-9206-ec75b76a6696": {
+          "type": "heading_seo_block",
+          "settings": {
+            "seo_block_heading": "Playstation 5 - Controller",
+            "seo_block_txt": "<p>Du hast eine Playstation 5 oder planst dir eine zu kaufen? Hervorragend! Während einige sie als futuristisch loben, hätten andere sich ein unterschiedliches Design gewünscht. Dennoch steht ein Aspekt dieser revolutionären Konsole unumstritten im Vordergrund: Die PS5-Controller, die zurzeit eine Neuausrichtung der Gaming-Welt darstellen. Falls du nach einer Möglichkeit suchst, deinen ganz persönlichen PS5-Controller zu kreieren, bist du bei uns genau richtig. Denn wir bieten ein umfangreiches Sortiment, damit deiner individuellen Gestaltung nichts mehr im Wege steht. <\/p>"
+          }
+        },
+        "82ba75b2-ec1f-489b-afdf-75d3a74fb9f1": {
+          "type": "heading_seo_block",
+          "settings": {
+            "seo_block_heading": "PS5 Controller- Dein Design- Dein maßgeschneiderter PS5 Gaming Controller",
+            "seo_block_txt": "<p>Mit unserem Konfigurator kannst du deinen idealen Dual Sense Custom PS5 Controller individuell konfigurieren und erwerben - exakt nach deinen Vorstellungen.<\/p><p>Bei den angebotenen Custom PS5-Controllern handelt es sich um Standard-Controller, die nach deinen Wünschen und Bedürfnissen modifiziert werden. Du kannst dabei dein eigenes Design erstellen – mit persönlichem Text oder ausgewähltem Logo, diversen Farben oder Motiven, austauschbaren Tasten und sogar LED-Beleuchtung. Deine Kreativität kann sich hier frei entfalten. Stelle dir vor, du hältst einen einzigartigen Controller in der Hand – genau so, wie du es dir vorgestellt hast! Ob eine schwarze Vorderseite und eine völlig andere Farbe oder ein anderes Design auf der Rückseite - alles ist möglich! Sogar die Gestaltung und das \"Klicken\" der Schultertasten kann nach deinen Wünschen angepasst werden.<\/p><p>Kennt nicht jeder das Problem schwitziger Hände nach intensiven Spielsessions? Der Original-Controller beginnt zu rutschen, was gerade in hitzigen Kämpfen zum Spielverderber werden kann. Dafür bieten wir eine Lösung – spezielle Antirutsch-Beschichtungen.<\/p>"
+          }
+        },
+        "4f06a649-c6dd-4843-8b26-7fcc7b3dd02f": {
+          "type": "heading_seo_block",
+          "settings": {
+            "seo_block_heading": "Individuelle PS5 Controller – Zusatzfunktionen und erweiterte Eigenschaften",
+            "seo_block_txt": "<p>Nun kommt der aufregende Teil: Unsere individuellen Controller können zusätzlich modifiziert werden, um neue Features und Funktionen hinzuzufügen, die der originale Controller nicht bietet. Diese Modifikationen sollen dein Spielerlebnis optimieren sowie die Leistung, Reaktionsgeschwindigkeit, Präzision und Benutzerfreundlichkeit verbessern.<\/p><p>Zu den Modifikationen, die wir anbieten, gehören:<\/p><ul><li><strong>Smart Trigger und Bumper<\/strong>: Dank eines verbesserten digitalen Mechanismus kannst du schneller reagieren und schießen.<\/li><li><strong>Grip<\/strong>: Spezielle Gummierung und Texturierung sorgen für einen verbesserten Halt und sorgt dafür, dass der Controller besser in der Hand liegt.<\/li><li><strong>Paddles<\/strong>: Auf der Rückseite des Controllers angebrachte Paddles steigern den Spielkomfort und die Effizienz.<\/li><li><strong>Swap Sticks<\/strong>: Du weißt, wie entscheidend analoge Sticks beim Spielen sind – bei uns kannst du nicht nur ihre Farbe, sondern auch ihre Höhe (klein, mittel und groß) individuell auswählen.<\/li><\/ul><p>Zusammenfassend: Mit unseren individuell angefertigten PlayStation 5-Controllern erhältst du nicht nur ein Gerät, das du selbst gestaltet hast, sondern auch erweiterte Funktionen, die dein Spielerlebnis optimieren.<\/p>"
+          }
+        },
+        "4383f849-3660-40ce-bbcc-0f5d643d4bb2": {
+          "type": "heading_seo_block",
+          "settings": {
+            "seo_block_heading": "Deinen PS5 Controller individualisieren – Auswahlmöglichkeiten",
+            "seo_block_txt": "<p>Dank verschiedener Druck- und Airbrush-Techniken passen wir das Design des Controllers exakt an deine Vorstellungen an. Lass dich von unserer vielfältigen Auswahl an Cases, Thumbstick-Formen, vorgefertigten Designs, Mittelteilen, Gehäusen, Touchpads und vielem mehr inspirieren.<\/p><p>Zusätzlich kannst du deinen Controller mit einer speziellen Grip-Rückseite ausstatten, die dir selbst in nervenaufreibenden Spielphasen einen festen Halt gewährleistet.<\/p><p>Wir von King Controller sind stets darauf bedacht, dir die bestmögliche Qualität, Komfort und Ästhetik zu bieten, um dein Spielerlebnis auf die Spitze zu treiben.<\/p><p>Nutze unseren Konfigurator, entwerfe und kreiere einen Controller, der speziell auf deine Bedürfnisse abgestimmt ist.<\/p><p>Wir bieten auch eine Vielzahl von vorgefertigten Designs und Konfigurationen an, um dir die Auswahl zu erleichtern.<\/p><p>Also, warum noch warten? Du bist ein Unikat - und das sollte dein Controller auch sein! Entdecke das Pro Gamer-Dasein mit deinem persönlichen Touch.<\/p><p>Das Team von King Controller wünscht dir viel Vergnügen beim Stöbern, Entdecken und Kreieren.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ffdf386d-9396-4f63-9206-ec75b76a6696",
+        "82ba75b2-ec1f-489b-afdf-75d3a74fb9f1",
+        "4f06a649-c6dd-4843-8b26-7fcc7b3dd02f",
+        "4383f849-3660-40ce-bbcc-0f5d643d4bb2"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "e9ea07a1-9f76-42a8-9759-73dad3702a96",
+    "main",
+    "55c8f141-a53c-4c57-8529-84af8a74a11a",
+    "277076af-d9ed-4d73-9c45-e0b833ab0629",
+    "a49eb32f-3993-4f48-a3b5-7cbf62eb4750",
+    "3ce79a0d-c665-42c3-b4d4-ee79f829346b"
+  ]
+}

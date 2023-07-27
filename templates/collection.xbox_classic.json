@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "0604ab13-a2a7-46ce-be36-3ab2a9bddd72": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17920229474571__0604ab13-a2a7-46ce-be36-3ab2a9bddd72-168499625032523b62-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BannerXBOXDT_8f124188-6a8b-4a37-bb42-47e76075dbe4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BannerXBOXMOB.png",
+            "apply_overlay": false,
+            "content_position": "middleLeft",
+            "subheading": "XBOX X\/S CLASSICS",
+            "title": "VIELFALT DIE BEGEISTERT",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17920229474571__0604ab13-a2a7-46ce-be36-3ab2a9bddd72-168499625032523b62-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        "header {display: none;}",
+        "section {margin: 0 0 2rem 0; padding: 0;}"
+      ],
+      "settings": {
+        "show_collection_info": false,
+        "show_collection_image": false,
+        "apply_overlay": false,
+        "show_color_swatch": false,
+        "show_vendor": false,
+        "collection_image_size": "normal",
+        "show_sort_by": false,
+        "show_layout_switch": false,
+        "toolbar_position": "top",
+        "show_filters": false,
+        "show_filter_color_swatch": true,
+        "expand_filters": true,
+        "filter_position": "drawer",
+        "filter_menu": "",
+        "grid_items_per_page": 48,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "af3b7e69-96d5-4f64-8178-3e0293160a16": {
+      "type": "king-info",
+      "blocks": {
+        "b5fe69ab-c0d8-4b19-b2e1-d1689eb2b438": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/quality.png",
+            "title": "Highest Quality",
+            "controller_infoblock_txt": "<p>Unsere Controller werden mit größter Qualität und Sorgfalt produziert.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "96ee3d8d-fbf2-49a0-a83e-b4b3afe1899b": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/madeinger.png",
+            "title": "Made in Germany",
+            "controller_infoblock_txt": "<p>Unsere Controller werden lokal in Deutschland hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "0db6a7c8-2e12-4658-9a2c-38217271c21f": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/passgenau.png",
+            "title": "Passgenau",
+            "controller_infoblock_txt": "<p>Durch sorgfältige und gründliche Arbeit sind King Controller passgenau für dich hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "b5fe69ab-c0d8-4b19-b2e1-d1689eb2b438",
+        "96ee3d8d-fbf2-49a0-a83e-b4b3afe1899b",
+        "0db6a7c8-2e12-4658-9a2c-38217271c21f"
+      ],
+      "custom_css": [
+        "h2 {color: #232323;}",
+        "@media (min-width: 768px) {.king__info-images {margin: 0; } h2, h3, p {text-align: left; } .king__info-p {margin: 1.5rem 0; }}"
+      ],
+      "settings": {
+        "heading_king_info": "Wieso King Controller?",
+        "controller_infoblock_btn": "",
+        "controller_infoblock_btnlink": "shopify:\/\/pages\/so-wirds-gemacht",
+        "background_color": "#f5f5f7",
+        "background_color_outside": "#f5f5f7",
+        "text_color": "#000000"
+      }
+    },
+    "47e6354e-e940-4845-9afa-857b60b7dc83": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}",
+        ".twit_block {margin: 0 3rem;}",
+        "@media (min-width: 768px) {img {width: 50%; }}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATEN ZAHLEN.",
+        "text": "<h3>MIT KLARNA.<\/h3>"
+      }
+    },
+    "96f1040d-d332-4df5-beb0-6ccd7040cc15": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17922930704651__96f1040d-d332-4df5-beb0-6ccd7040cc15-1684998090397ba1ad-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BannerXBOXKonfiguratorDT.png",
+            "mobile_image": "shopify:\/\/shop_images\/BannerXBOXKonfiguratorDT_11221c17-2a77-4dd8-a54b-ade312bb40ac.jpg",
+            "apply_overlay": false,
+            "content_position": "middleLeft",
+            "subheading": "XBOX X\/S KONFIGURATOR",
+            "title": "VIELFALT DIE BEGEISTERT",
+            "button_1_text": "ENTDECKEN",
+            "button_1_link": "shopify:\/\/products\/xbox-konfigurator",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17922930704651__96f1040d-d332-4df5-beb0-6ccd7040cc15-1684998090397ba1ad-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "0604ab13-a2a7-46ce-be36-3ab2a9bddd72",
+    "main",
+    "af3b7e69-96d5-4f64-8178-3e0293160a16",
+    "47e6354e-e940-4845-9afa-857b60b7dc83",
+    "96f1040d-d332-4df5-beb0-6ccd7040cc15"
+  ]
+}

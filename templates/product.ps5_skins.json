@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": true
+          }
+        },
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b": {
+          "type": "text_bulletpoints",
+          "settings": {
+            "text_bulletpoints": "<style>\nul.checklist {\n    list-style-type: none;\n    padding-left: 0;\n}\nul.checklist li:before {\n    content: '✔';\n    margin-right: 10px;\n}\n<\/style>\n<ul class=\"checklist\">\n<li>EXKLUSIVES DESIGN<\/li>\n<li>SELBSTKLEBEND<\/li>\n<li>HOCHWERTIG<\/li>\n<li>HANDMADE IN GERMANY<\/li>\n<\/ul>"
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1": {
+          "type": "description_01",
+          "settings": {
+            "title_description": "Beschreibung"
+          }
+        },
+        "cdab740a-35b0-40d6-bb38-699be89a1a07": {
+          "type": "content",
+          "settings": {
+            "title": "Versand",
+            "content": "",
+            "page": ""
+          }
+        },
+        "12645073-15f2-4e3b-ad30-af836fce13ee": {
+          "type": "paymentbuttons",
+          "settings": {
+          }
+        },
+        "1d862a7e-651b-4714-bb8c-ac4f66100c26": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/klarna_icon_7fad701a-9b2c-4800-9314-68d79d0e5bc5.png",
+            "image2": "shopify:\/\/shop_images\/paypal2_icon_e444d04f-d647-4a6e-a356-4f006aa18d04.png",
+            "text1": "Bezahle nach 30 Tagen",
+            "text2": "Bezahle nach 30 Tagen"
+          }
+        },
+        "1aa8616f-f253-44f7-b13e-954ddd804f4e": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "versandkosten"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons",
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1",
+        "cdab740a-35b0-40d6-bb38-699be89a1a07",
+        "12645073-15f2-4e3b-ad30-af836fce13ee",
+        "1d862a7e-651b-4714-bb8c-ac4f66100c26",
+        "1aa8616f-f253-44f7-b13e-954ddd804f4e"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "fb4388f9-ed7e-43aa-857a-448823e5c734": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "p,h2,h3 {text-align: left; margin: 0;}",
+        ".ImageHero {justify-content: left;}",
+        ".SectionHeader {padding-left: 2rem;}",
+        "@media (max-width: 768px) {p, h2, h3 {text-align: center; margin: 01rem; }}"
+      ],
+      "settings": {
+        "section_size": "small",
+        "image": "shopify:\/\/shop_images\/skinsbanner_da47fa32-b1e0-4e03-9941-2c03ba08b644.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 50,
+        "subheading": "100% Gaming",
+        "title": "KING CONTROLLER",
+        "content": "<p>Unsere King Controller gibt es in einer Vielzahl an Designs. Vom Minimalistischen bis hin zum ausgefallenen. Für jeden ist etwas dabei. Zusätzliche Tasten und Funktionen, sowie ein Softtouch-Grip machen die Controller zu einem besonderen Spielerlebnis. Unsere Swapsticks lassen sich bequem per Plug&Play in Farbe, Größe und Form austauschen um für jede Situation die passenden Aufsätze bereit zu haben.<\/p>"
+      }
+    },
+    "eb16e443-4017-4dc7-a298-985f134950ed": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/konfimaindtskin-1669357763055_1.webp",
+        "title": "SELBSTKLEBEND",
+        "text": "<p>Individueller selbstklebender Skin Cover. Einfach anzubringen und zu entfernen. Hinterlässt keine klebrigen Rückstände.<\/p>"
+      }
+    },
+    "0ab4ccf9-7135-410f-b657-ac74d109cdb4": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/skinglue.jpg",
+        "title": "HOCHWERTIG",
+        "text": "<p>Hochqualitative Digitaldruck Folie mit Laminierung für eine langlebige Haltbarkeit. Elastische, selbstklebende Dekor-Folie für PS5-Gehäuse, lässt sich einfach auf die Oberfläche kleben.<br\/>Dünnes, mattes Material, perfekte Passform, individuell.<\/p>"
+      }
+    },
+    "970950e5-6437-4eda-ad2d-03c461ac6ef0": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/ps5-skin-digital-678192.png",
+        "title": "Lieferumfang",
+        "text": "<ul><li>1x Folien-Set<\/li><\/ul><p>Konsole nicht im Lieferumfang enthalten.<\/p>"
+      }
+    },
+    "257c4655-7d1f-404a-812a-9d4bf5abb632": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}",
+        ".twit_block {margin: 0 3rem;}",
+        "@media (min-width: 768px) {img {width: 50%; }}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATE ZAHLEN.",
+        "text": "<h3>MIT KLARNA.<\/h3>"
+      }
+    },
+    "aa3271ec-d0f1-4de5-bbbe-5c9686056783": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2,divh3 {text-align: center;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Check das mal aus",
+        "html": ""
+      }
+    },
+    "78e5edf5-6339-4a88-b004-267ad777b085": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17943730422027__78e5edf5-6339-4a88-b004-267ad777b085-16867441458406dc1d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "skin-cover",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17943730422027__78e5edf5-6339-4a88-b004-267ad777b085-16867441458406dc1d-0"
+      ],
+      "custom_css": [
+        "header {display: none;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb4388f9-ed7e-43aa-857a-448823e5c734",
+    "eb16e443-4017-4dc7-a298-985f134950ed",
+    "0ab4ccf9-7135-410f-b657-ac74d109cdb4",
+    "970950e5-6437-4eda-ad2d-03c461ac6ef0",
+    "257c4655-7d1f-404a-812a-9d4bf5abb632",
+    "aa3271ec-d0f1-4de5-bbbe-5c9686056783",
+    "78e5edf5-6339-4a88-b004-267ad777b085"
+  ]
+}

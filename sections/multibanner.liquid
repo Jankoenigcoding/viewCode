@@ -1,0 +1,79 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+
+<div class="homepage-container" style="background-image: url('{{ section.settings.background_image | img_url: '2500x' }}'); background-repeat: no-repeat; background-size: cover;">
+  <div class="Container-multi">
+    <div class="flex-wrapper row01">
+      <div class="flex-section">
+        <h2 class="h1-inverse">{{ section.settings.heading_multi }}</h2>
+        <p class="text-inverse">{{ section.settings.subtitle_multi }}</p>
+      </div>
+    </div>
+    <div class="flex-wrapper row02">
+      {% for block in section.blocks %}
+
+        {% case block.type %}
+
+          {% when "slider_block" %}
+
+          <div class="flex-section">
+            <div class="img-wrapper">
+              <img src="{{ block.settings.slider_block_picture | img_url: '280x' }}">
+            </div>
+            <div class="content-wrapper">
+              <h3 class="h5">{{ block.settings.slider_block_heading }}</h3>
+              <p class="text-center">{{ block.settings.slider_block_subtitle }}</p>
+            </div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Multibanner",
+    "settings": [
+      {
+        "id": "heading_multi",
+        "label": "Heading",
+        "type": "html"
+      }, {
+        "id": "subtitle_multi",
+        "label": "Subtitle",
+        "type": "text"
+      }, {
+        "id": "background_image",
+        "label": "Hintergrundbild",
+        "type": "image_picker"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "slider_block",
+        "name": "Slider Block",
+        "limit": 4,
+        "settings": [
+          {
+            "id": "slider_block_heading",
+            "label": "Heading",
+            "type": "text"
+          }, {
+            "id": "slider_block_picture",
+            "label": "Bild",
+            "type": "image_picker"
+          }, {
+            "id": "slider_block_subtitle",
+            "label": "Subtitle",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Multibanner"
+      }
+    ]
+  }
+{% endschema %}

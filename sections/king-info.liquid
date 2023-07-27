@@ -1,0 +1,123 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+<style>
+  .background {
+    background-color: {{ section.settings.background_color }};
+  }
+  .txt__color {
+    color: {{ section.settings.text_color }};
+  }
+</style>
+
+<div class="ContainerFullWidth" style="background-color: {{ section.settings.background_color_outside }};">
+  <div class="controllerContainer background">
+    {% if section.settings.heading_king_info != blank %}
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.heading_king_info }}</h2>
+    {% endif %}
+    <div class="king__infoflex">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'controller_info_block' %}
+            <div class="king__info-ft1">
+              <img class="king__info-images" src="{{ block.settings.controller_block_img | img_url: '460x' }}">
+
+              {% if block.settings.title != blank %}
+                <h3 class="king__info-h3 txt__color">{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.controller_infoblock_txt != blank %}
+                <div class="king__info-p txt__color">
+                  {{ block.settings.controller_infoblock_txt }}
+                </div>
+                {% if block.settings['button-txt'] != blank %}
+                  <a class="Button button__controller red" href="{{ block.settings.button-link }}">
+                    {{- block.settings['button-txt'] -}}
+                  </a>
+                {% endif %}
+              {% endif %}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    {% if section.settings.controller_infoblock_btn != blank %}
+      <a class="king__buttongrey" href="{{ section.settings.controller_infoblock_btnlink }}">
+        {{- section.settings.controller_infoblock_btn -}}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "King Info",
+  "settings": [
+    {
+      "id": "heading_king_info",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "id": "controller_infoblock_btn",
+      "label": "Button Text",
+      "type": "text"
+    },
+    {
+      "id": "controller_infoblock_btnlink",
+      "label": "Button Link",
+      "type": "url"
+    },
+    {
+      "id": "background_color",
+      "label": "Background Color",
+      "type": "color"
+    },
+    {
+      "id": "background_color_outside",
+      "label": "Background Color Outside",
+      "type": "color"
+    },
+    {
+      "id": "text_color",
+      "label": "Text Color",
+      "type": "color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "controller_info_block",
+      "name": "King Info Block",
+      "limit": 3,
+      "settings": [
+        {
+          "id": "controller_block_img",
+          "label": "Desktop",
+          "type": "image_picker"
+        },
+        {
+          "id": "title",
+          "label": "Heading",
+          "type": "text"
+        },
+        {
+          "id": "controller_infoblock_txt",
+          "label": "Text",
+          "type": "richtext"
+        },
+        {
+          "id": "button-link",
+          "label": "Button Link",
+          "type": "url"
+        },
+        {
+          "id": "button-txt",
+          "label": "Button Text",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "King Info"
+    }
+  ]
+}
+{% endschema %}

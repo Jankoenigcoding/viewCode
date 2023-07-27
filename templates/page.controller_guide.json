@@ -1,0 +1,242 @@
+{
+  "sections": {
+    "34d85f39-ff6e-478a-82d4-a777d4f100c9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17925029069067__34d85f39-ff6e-478a-82d4-a777d4f100c9-1685105039a0c1eaae-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_DT_cfea4ea4-f7b5-4175-8e57-0ad87d2eaa68.png",
+            "mobile_image": "shopify:\/\/shop_images\/Header_MOB_d62cd647-705d-4eae-a189-ba28eeca346a.png",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17925029069067__34d85f39-ff6e-478a-82d4-a777d4f100c9-1685105039a0c1eaae-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "0bc2fbf5-c583-42e1-b22d-38777a7768a0": {
+      "type": "controller-carousel",
+      "blocks": {
+        "7d73a3c5-044e-4e24-b321-73a387cb296f": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Quad-Curved-Head-MOB.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/Quad-Curved-Head-MOB.png",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d73a3c5-044e-4e24-b321-73a387cb296f"
+      ],
+      "custom_css": [
+        ".Button {display: none;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "",
+        "subtitle_controllercarousell": "",
+        "background_color": "",
+        "background_color_outside": ""
+      }
+    },
+    "b6eee325-9e80-4c44-8d31-d79b1ba88618": {
+      "type": "controller-carousel",
+      "blocks": {
+        "4d847149-e9bc-4691-90c4-357e3f0b748c": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Remap-PS5_mob_neu_43f1a621-a9be-45e8-aa2c-15e9a432b167.png",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "4d847149-e9bc-4691-90c4-357e3f0b748c"
+      ],
+      "custom_css": [
+        ".Button {display: none;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "",
+        "subtitle_controllercarousell": "",
+        "background_color": "",
+        "background_color_outside": ""
+      }
+    },
+    "93b8293d-3621-40d6-85d7-ff382182ff92": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS5-1.png",
+        "title": "SCHRITT 1:",
+        "text": "<p>Controller mit der Konsole verbinden und darauf achten ob der Lautsprecher Blau oder Rot blinkt.<\/p>"
+      }
+    },
+    "cc794af4-8f02-403a-8e4b-7b8cfc4fee70": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/PS5-2.png",
+        "title": "SCHRITT 2:",
+        "text": "<p>Rot: D-Pad runter und X gleichzeitig gedrückt halten bis die Lautsprecher LED Rot blinkt.<\/p><p>Blau V1: D-Pad runter und X um Programmierung zu starten.<br\/><br\/>Blau V2: D-Pad runter und rechts + X und Viereck um Programmierung zu starten.<\/p>"
+      }
+    },
+    "769fb3f6-e56b-45cb-b4e6-513668909ccb": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS5-2.png",
+        "title": "SCHRITT 3:",
+        "text": "<p>Rot: Zum Programmieren wähle ein Paddel und halte es gedrückt, als nächstes wählst du den Button den du dublizieren möchtest. Nach kurzer Zeit, blinkt die LED 2x. Um die Programmierung zu verlassen, drücke Pfeiltaste runter.<\/p><p><\/p><p>Blau V1+V2: Gewünschtes Paddle einmal betätigen, die LED blinkt einmal auf, nun betätige die Taste die du dublizieren möchtet. Die LED blinkt zweimal auf. Um Programmierun zu beenden halte die Pfeiltaste Links gedrückt bis die LED blau leuchtet.<\/p>"
+      }
+    },
+    "67086249-bcab-45c6-a1b9-6417e0d791b3": {
+      "type": "controller-carousel",
+      "blocks": {
+        "e2c735ac-d0c3-496f-afee-407d01c0df03": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Alu-Curved-Head-MOB.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/Alu-Curved-Head-MOB.png",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "e2c735ac-d0c3-496f-afee-407d01c0df03"
+      ],
+      "custom_css": [
+        ".Button {display: none;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "",
+        "subtitle_controllercarousell": "",
+        "background_color": "",
+        "background_color_outside": ""
+      }
+    },
+    "ee57ce20-bb54-4367-b201-9b8d1711aac6": {
+      "type": "controller-carousel",
+      "blocks": {
+        "f8b61525-e9fd-42c2-8985-e62bfd3ee177": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Remap-PS4_MOB.png",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "f8b61525-e9fd-42c2-8985-e62bfd3ee177"
+      ],
+      "custom_css": [
+        ".Button {display: none;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "",
+        "subtitle_controllercarousell": "",
+        "background_color": "",
+        "background_color_outside": ""
+      }
+    },
+    "8fa51713-450f-454b-9a0f-e5203991cc1d": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS4-1.png",
+        "title": "SCHRITT 1:",
+        "text": "<p>Verbinde dein Controller mit deiner Konsole oder dem PC. Die LED blinkt grün. Halte das <strong>Touchpad <\/strong>6 Sekunden lang gedrückt bis die PS4 LED anfängt zu blinken. Jetzt das Touchpad wieder loslassen.<\/p>"
+      }
+    },
+    "6533f9fc-6724-4160-b798-3b88aa27b079": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/PS4-2.png",
+        "title": "SCHRITT 2:",
+        "text": "<p>Drücke das Paddle und den Button, dessen Funktion du übernehmen willst, für 4 Sekunden. Das Touchpad blinkt erneut.<\/p><p><strong>Wiederhole „Schritt 2“ für alle Tasten, die du neu belegen möchtest.<\/strong><\/p>"
+      }
+    },
+    "b8ef69cc-def7-47bc-989a-a804642f98fe": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS4-3.png",
+        "title": "SCHRITT 3:",
+        "text": "<p>Sobald du mit der Neuzuordnung fertig bist, drücke einmal das Touchpad.<\/p>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_large": false
+      }
+    },
+    "4323f08c-73f6-4638-b6bc-66282e97d290": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--17925029069067__4323f08c-73f6-4638-b6bc-66282e97d290-168603090065c32238-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "template--17925029069067__4323f08c-73f6-4638-b6bc-66282e97d290-168603090065c32238-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Falls du noch mehr über unsere Controller wissen möchtest",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    }
+  },
+  "order": [
+    "34d85f39-ff6e-478a-82d4-a777d4f100c9",
+    "0bc2fbf5-c583-42e1-b22d-38777a7768a0",
+    "b6eee325-9e80-4c44-8d31-d79b1ba88618",
+    "93b8293d-3621-40d6-85d7-ff382182ff92",
+    "cc794af4-8f02-403a-8e4b-7b8cfc4fee70",
+    "769fb3f6-e56b-45cb-b4e6-513668909ccb",
+    "67086249-bcab-45c6-a1b9-6417e0d791b3",
+    "ee57ce20-bb54-4367-b201-9b8d1711aac6",
+    "8fa51713-450f-454b-9a0f-e5203991cc1d",
+    "6533f9fc-6724-4160-b798-3b88aa27b079",
+    "b8ef69cc-def7-47bc-989a-a804642f98fe",
+    "main",
+    "4323f08c-73f6-4638-b6bc-66282e97d290"
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": true
+          }
+        },
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b": {
+          "type": "text_bulletpoints",
+          "settings": {
+            "text_bulletpoint_1": "Handgefertigtes Kunstwerk aus Einzelteilen eines PS5 Controllers",
+            "text_bulletpoint_2": "Dreidimensional - scheinbar schwebende Teile",
+            "text_bulletpoint_3": "Hochwertiger Rahmen für einzigartige Gaming-Atmosphäre",
+            "text_bulletpoint_4": "Made in Germany"
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": true,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "7475e5a0-7aac-48ae-bd51-9797a76a7709": {
+          "type": "lieferzeit",
+          "settings": {
+            "lieferzeit": "Auf Lager - In 1-3 Tagen bei dir"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "c3a244d4-e0aa-4cff-b9c4-ac338ba76f83": {
+          "type": "paymentbuttons",
+          "settings": {
+          }
+        },
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1": {
+          "type": "description_01",
+          "settings": {
+            "title_description": "Beschreibung"
+          }
+        },
+        "cdab740a-35b0-40d6-bb38-699be89a1a07": {
+          "type": "content",
+          "settings": {
+            "title": "Versand",
+            "content": "",
+            "page": "versandkosten"
+          }
+        },
+        "daa2fd9c-e381-487d-ae56-ec32713629dc": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/klarna_icon_7fad701a-9b2c-4800-9314-68d79d0e5bc5.png",
+            "image2": "shopify:\/\/shop_images\/paypal2_icon_e444d04f-d647-4a6e-a356-4f006aa18d04.png",
+            "text1": "Bezahle nach 30 Tagen",
+            "text2": "Bezahle nach 30 Tagen"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b",
+        "variant_selector",
+        "quantity_selector",
+        "7475e5a0-7aac-48ae-bd51-9797a76a7709",
+        "buy_buttons",
+        "c3a244d4-e0aa-4cff-b9c4-ac338ba76f83",
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1",
+        "cdab740a-35b0-40d6-bb38-699be89a1a07",
+        "daa2fd9c-e381-487d-ae56-ec32713629dc"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1051260e-e4b5-445e-8882-c2e1d12b40e9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17967401468171__1051260e-e4b5-445e-8882-c2e1d12b40e9-1688382139ee3b43df-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AMZN_0000s_0003_Rahmen_0000s_0003_DSC00517_cropped.png",
+            "mobile_image": "shopify:\/\/shop_images\/12.jpg",
+            "apply_overlay": true,
+            "content_position": "middleLeft",
+            "subheading": "PIMP YOUR ROOM.",
+            "title": "PS5 Controller Showcase",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17967401468171__1051260e-e4b5-445e-8882-c2e1d12b40e9-1688382139ee3b43df-0"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "09e6d892-2828-4eaa-b29b-4decffb3ef1d": {
+      "type": "controller-carousel",
+      "blocks": {
+        "6b214e3e-a222-491a-ba00-c2d6c924dc7e": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/15.jpg",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/15.jpg",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        },
+        "77a2af45-10e9-4850-9baa-9e02f67055ce": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/14.jpg",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/14.jpg",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        },
+        "ef15b694-ed10-4805-a9e2-ff0f01da78a9": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/10.jpg",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/10.jpg",
+            "title": "",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "6b214e3e-a222-491a-ba00-c2d6c924dc7e",
+        "77a2af45-10e9-4850-9baa-9e02f67055ce",
+        "ef15b694-ed10-4805-a9e2-ff0f01da78a9"
+      ],
+      "custom_css": [
+        ".Button {display: none;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "",
+        "subtitle_controllercarousell": "",
+        "background_color": "",
+        "background_color_outside": ""
+      }
+    },
+    "11204957-482e-4e4a-8f7f-a73b9e105fc5": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/mockup2.jpg",
+        "title": "Must-Have",
+        "text": "<p>Dieser Showcase ist eine Hommage an die begeisternde Welt des Gamings und lässt dein Herz als Gaming-Enthusiast sicher höherschlagen. Zeige deine Leidenschaft für Spiele auf stilvolle Weise und lass dich von der Einzigartigkeit des PS5 Controller Showcase begeistern.<\/p>"
+      }
+    },
+    "dfa152e7-0977-47c8-8f98-563079934772": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/mockup1_4995fe84-fea8-4b8b-9815-240bc643d480.jpg",
+        "title": "Nachhaltigkeit",
+        "text": "<p>Mit dem PS5 Controller Showcase trägst du aktiv zum Umweltschutz bei und setzt ein Statement für Nachhaltigkeit und Stil. Jeder Showcase ist ein einzigartiges Kunstwerk, das aus wiederverwendeten Controller-Einzelteilen besteht und deinen Raum mit unvergleichbarer Ästhetik bereichert.<\/p>"
+      }
+    },
+    "2b5504b5-1dec-4227-8184-cbd430a64fab": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATE ZAHLEN.",
+        "text": "<h3>MIT KLARNA.<\/h3>"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Check das mal aus",
+        "recommendations_count": 4,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1051260e-e4b5-445e-8882-c2e1d12b40e9",
+    "09e6d892-2828-4eaa-b29b-4decffb3ef1d",
+    "11204957-482e-4e4a-8f7f-a73b9e105fc5",
+    "dfa152e7-0977-47c8-8f98-563079934772",
+    "2b5504b5-1dec-4227-8184-cbd430a64fab",
+    "product-recommendations"
+  ]
+}

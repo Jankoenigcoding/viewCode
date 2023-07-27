@@ -1,0 +1,333 @@
+{
+  "sections": {
+    "c1d81cbc-d5b4-48d8-afe1-0e711c0896a9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17909739061515__c1d81cbc-d5b4-48d8-afe1-0e711c0896a9-1684838882bdad7776-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/StrandBanner_DT_b3b0a639-c5ea-44e7-aeba-5c0a295793b8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/StrandBanner_LP_MOB.jpg",
+            "apply_overlay": true,
+            "content_position": "middleLeft",
+            "subheading": "Bau dir deinen King Controller und spare bis zu 35%",
+            "title": "Summer Sale",
+            "button_1_text": "Zu den Angeboten",
+            "button_1_link": "shopify:\/\/pages\/summersale",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17909739061515__c1d81cbc-d5b4-48d8-afe1-0e711c0896a9-1684838882bdad7776-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#ffffff"
+      }
+    },
+    "5be799b5-70ff-480a-a72b-dfcba61f839e": {
+      "type": "controller-carousel",
+      "blocks": {
+        "41df7aa2-eaad-4ed1-b1cc-033ab473639b": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/PS5-Konfibild_frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/PS5-Konfibild_frontal.png",
+            "title": "Playstation 5",
+            "controller_block_btntxt": "Konfigurieren",
+            "controller_block_btnlink": "shopify:\/\/products\/ps5-konfigurator"
+          }
+        },
+        "85f43d87-d0e2-4af4-aedd-121c871429c6": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/PS4-Konfibild-frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/PS4-Konfibild-frontal.png",
+            "title": "Playstation 4",
+            "controller_block_btntxt": "Konfigurieren",
+            "controller_block_btnlink": "shopify:\/\/products\/ps4-konfigurator"
+          }
+        },
+        "365292e7-5d4c-4b40-8329-294f8b54f80a": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/Xbox-Konfibild-frontal.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/Xbox-Konfibild-frontal.png",
+            "title": "Xbox",
+            "controller_block_btntxt": "Konfigurieren",
+            "controller_block_btnlink": "shopify:\/\/products\/xbox-konfigurator"
+          }
+        }
+      },
+      "block_order": [
+        "41df7aa2-eaad-4ed1-b1cc-033ab473639b",
+        "85f43d87-d0e2-4af4-aedd-121c871429c6",
+        "365292e7-5d4c-4b40-8329-294f8b54f80a"
+      ],
+      "settings": {
+        "heading_controllercarousell": "STARTE JETZT DEINE KONFIGURATION",
+        "subtitle_controllercarousell": "INDIVIDUALISERE DIR DEINEN PS4, PS5 ODER XBOX CONTROLLER",
+        "background_color": "#232323",
+        "background_color_outside": "#232323"
+      }
+    },
+    "7ecd0f90-77c1-49e4-9d8a-b2336e3690a5": {
+      "type": "controller-carousel",
+      "blocks": {
+        "e3deecd3-4551-4b07-bbfc-f022a91ef87e": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/ps5_controller_0885a555-9a5e-4d07-b919-930abdc03bd4.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/ps5_controller_0885a555-9a5e-4d07-b919-930abdc03bd4.png",
+            "title": "PS5 CLASSICS",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": "shopify:\/\/collections\/ps5-controller"
+          }
+        },
+        "7e5be083-89f2-4839-bef0-242ca408bcd0": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/ps4_controller_20092d48-0fb9-49e7-bc62-2a31ccced255.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/ps4_controller_20092d48-0fb9-49e7-bc62-2a31ccced255.png",
+            "title": "PS4 CLASSICS",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": "shopify:\/\/collections\/ps4-controller"
+          }
+        },
+        "93060f70-6a62-499c-aa4a-fb1c71556ab1": {
+          "type": "controller_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/xbox_controller_5d0d2e0e-11f4-4de2-a44b-8805a4038ed8.png",
+            "controller_block_img_mobile": "shopify:\/\/shop_images\/xbox_controller_5d0d2e0e-11f4-4de2-a44b-8805a4038ed8.png",
+            "title": "XBOX CLASSICS",
+            "controller_block_btntxt": "",
+            "controller_block_btnlink": "shopify:\/\/collections\/xbox-controller"
+          }
+        }
+      },
+      "block_order": [
+        "e3deecd3-4551-4b07-bbfc-f022a91ef87e",
+        "7e5be083-89f2-4839-bef0-242ca408bcd0",
+        "93060f70-6a62-499c-aa4a-fb1c71556ab1"
+      ],
+      "custom_css": [
+        ".Button {display: none;}",
+        "h3 {font-size: 1.5rem;}"
+      ],
+      "settings": {
+        "heading_controllercarousell": "Fertigmodell Gefällig?",
+        "subtitle_controllercarousell": "UNSERE CLASSIC MODELLE SIND DER IDEALE WEG, UM SCHNELL AN DEINEN KING CONTROLLER ZU GELANGEN",
+        "background_color": "#232323",
+        "background_color_outside": "#232323"
+      }
+    },
+    "b2600560-4db0-4b8b-a966-496d13577fbc": {
+      "type": "custom-html",
+      "custom_css": [
+        "section,h2,h3 {margin: 0; padding: 0; text-align: center;}",
+        "section {padding: 1rem 0;}"
+      ],
+      "settings": {
+        "subheading": "PLAY LIKE A KING.",
+        "title": "OUR FAVOURITE CLASSICS",
+        "html": ""
+      }
+    },
+    "1ef68fcc-a289-4de2-bed9-4770eb8956b1": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17943729701131__1ef68fcc-a289-4de2-bed9-4770eb8956b1-168665586509b5ccee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "classic-ps5-neue-designs",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17943729701131__1ef68fcc-a289-4de2-bed9-4770eb8956b1-168665586509b5ccee-0"
+      ],
+      "custom_css": [
+        "header {display: none;}",
+        "section {margin: 0 0 2rem 0; padding: 0;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "88c6070d-517f-4812-a6a5-1526b5c15d5c": {
+      "type": "slideshow",
+      "blocks": {
+        "d1784abd-be73-441b-be5d-73695f496f30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_285d6571-1fde-449e-a8b1-460ac1174766.png",
+            "mobile_image": "shopify:\/\/shop_images\/bannermob_84e13e59-3910-4264-99a6-68bed3a0c770.png",
+            "apply_overlay": false,
+            "content_position": "middleLeft",
+            "subheading": "Individualisiere deinen Gaming Room!",
+            "title": "Controller Showcases",
+            "button_1_text": "Playstation 5",
+            "button_1_link": "shopify:\/\/products\/ps5-showcase",
+            "button_2_text": "Playstation 4",
+            "button_2_link": "shopify:\/\/products\/ps4-showcase"
+          }
+        }
+      },
+      "block_order": [
+        "d1784abd-be73-441b-be5d-73695f496f30"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#ffffff"
+      }
+    },
+    "39b8ced6-72b7-4a48-9932-2adabd6be20c": {
+      "type": "king-info",
+      "blocks": {
+        "7f1483a1-e986-4603-87b3-8a67411ff7ab": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/quality.png",
+            "title": "Höchste Qualität",
+            "controller_infoblock_txt": "<p>King Controller werden mit größter Sorgfalt hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "a667e272-7862-4892-bf56-60ae7be8e3ae": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/madeinger.png",
+            "title": "Made in Germany",
+            "controller_infoblock_txt": "<p>Dein King Controller wird lokal in Deutschland hergestellt.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        },
+        "169af1c3-3fd6-4e89-9c86-98ce5da841a3": {
+          "type": "controller_info_block",
+          "settings": {
+            "controller_block_img": "shopify:\/\/shop_images\/passgenau.png",
+            "title": "Passgenau",
+            "controller_infoblock_txt": "<p>Unsere Materialien sind perfekt abgestimmt. Deiner nächsten Gaming – Session steht nichts mehr im Wege.<\/p>",
+            "button-link": "",
+            "button-txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "7f1483a1-e986-4603-87b3-8a67411ff7ab",
+        "a667e272-7862-4892-bf56-60ae7be8e3ae",
+        "169af1c3-3fd6-4e89-9c86-98ce5da841a3"
+      ],
+      "custom_css": [
+        "h2 {color: #000000;}",
+        "@media (min-width: 768px) {.king__info-images {margin: 0; } h2, h3, p {text-align: left; } .king__info-p {margin: 1.5rem 0; }}"
+      ],
+      "settings": {
+        "heading_king_info": "Wieso King Controller?",
+        "controller_infoblock_btn": "",
+        "controller_infoblock_btnlink": "https:\/\/www.king-controller.de\/pages\/so-wirds-gemacht",
+        "background_color": "#f5f5f7",
+        "background_color_outside": "#f5f5f7",
+        "text_color": "#000000"
+      }
+    },
+    "1025eefa-0856-4a1a-bbbc-20ce17ea16b2": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".kingafter::after {background-color: red;}",
+        "h2,p {color: white;}",
+        ".twit_inner {background-color: #232323;}",
+        "section {margin: 2rem 0;}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/konfimaindtskin-1669357763055_1.webp",
+        "title": "PS5 SKIN COVER",
+        "text": "<h2>PIMP DEINE KONSOLE!<\/h2><p><\/p><p>Deine Konsole kann mehr als nur weiß! Selbstklebendes Folienset um deiner PS5 Konsole mehr Glanz zu verleihen.<\/p>"
+      }
+    },
+    "bf626a4f-050b-42c9-954c-78c2536cfd80": {
+      "type": "featured-collections",
+      "blocks": {
+        "df4f88e7-4921-4297-92ab-1ea5b63a8c57": {
+          "type": "collection",
+          "settings": {
+            "collection": "skin-cover",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "Zu den Produkten"
+          }
+        }
+      },
+      "block_order": [
+        "df4f88e7-4921-4297-92ab-1ea5b63a8c57"
+      ],
+      "custom_css": [
+        "header {display: none;}",
+        "section {margin: 2rem 0; padding: 0;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "b0df5b5d-c4a7-48ee-bc6d-1ec3f2c4b421": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}",
+        ".twit_block {margin: 0 3rem;}",
+        "@media (min-width: 768px) {img {width: 50%; }}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATEN ZAHLEN.",
+        "text": "<h3>Mit Klarna.<\/h3>"
+      }
+    }
+  },
+  "order": [
+    "c1d81cbc-d5b4-48d8-afe1-0e711c0896a9",
+    "5be799b5-70ff-480a-a72b-dfcba61f839e",
+    "7ecd0f90-77c1-49e4-9d8a-b2336e3690a5",
+    "b2600560-4db0-4b8b-a966-496d13577fbc",
+    "1ef68fcc-a289-4de2-bed9-4770eb8956b1",
+    "88c6070d-517f-4812-a6a5-1526b5c15d5c",
+    "39b8ced6-72b7-4a48-9932-2adabd6be20c",
+    "1025eefa-0856-4a1a-bbbc-20ce17ea16b2",
+    "bf626a4f-050b-42c9-954c-78c2536cfd80",
+    "b0df5b5d-c4a7-48ee-bc6d-1ec3f2c4b421"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": true
+          }
+        },
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b": {
+          "type": "text_bulletpoints",
+          "settings": {
+            "text_bulletpoint_1": "Mehr Kontrolle",
+            "text_bulletpoint_info_1": "Dies ist ein langer Testtext und hier kann noch viel mehr stehen.",
+            "text_bulletpoint_2": "Programmierbare Paddles",
+            "text_bulletpoint_info_2": "",
+            "text_bulletpoint_3": "Verbesserte Griffigkeit",
+            "text_bulletpoint_info_3": "",
+            "text_bulletpoint_4": "Handmade in Germany",
+            "text_bulletpoint_info_4": ""
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1": {
+          "type": "description_01",
+          "settings": {
+            "title_description": "Beschreibung"
+          }
+        },
+        "cdab740a-35b0-40d6-bb38-699be89a1a07": {
+          "type": "content",
+          "settings": {
+            "title": "Versand",
+            "content": "",
+            "page": ""
+          }
+        },
+        "28625ee2-beff-4958-8355-7f1309a96ffd": {
+          "type": "paymentbuttons",
+          "settings": {
+          }
+        },
+        "d13b7173-1d96-4144-8630-e179af861cee": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/klarna_icon_7fad701a-9b2c-4800-9314-68d79d0e5bc5.png",
+            "image2": "shopify:\/\/shop_images\/paypal2_icon_e444d04f-d647-4a6e-a356-4f006aa18d04.png",
+            "text1": "Bezahle nach 30 Tagen",
+            "text2": "Bezahle nach 30 Tagen"
+          }
+        },
+        "a83efee5-faf2-4507-81e9-581cf2298dee": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": "versandkosten"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons",
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1",
+        "cdab740a-35b0-40d6-bb38-699be89a1a07",
+        "28625ee2-beff-4958-8355-7f1309a96ffd",
+        "d13b7173-1d96-4144-8630-e179af861cee",
+        "a83efee5-faf2-4507-81e9-581cf2298dee"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "c3279a73-b802-4ee5-936d-99e310342511": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "p,h2,h3 {text-align: left; margin: 0;}",
+        ".ImageHero {justify-content: left;}",
+        ".SectionHeader {padding-left: 2rem;}",
+        "@media (max-width: 768px) {p, h2, h3 {text-align: center; margin: 1rem; } .SectionHeader {padding-left: 0; }}"
+      ],
+      "settings": {
+        "section_size": "small",
+        "image": "shopify:\/\/shop_images\/PS4_Renegade_banner.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "subheading": "100% Gaming",
+        "title": "KING CONTROLLER",
+        "content": "<p>Unsere King Controller gibt es in einer Vielzahl an Designs. Vom Minimalistischen bis hin zum ausgefallenen. Für jeden ist etwas dabei. Zusätzliche Tasten und Funktionen, sowie ein Softtouch-Grip machen die Controller zu einem besonderen Spielerlebnis. Unsere Swapsticks lassen sich bequem per Plug&Play in Farbe, Größe und Form austauschen um für jede Situation die passenden Aufsätze bereit zu haben.<\/p>"
+      }
+    },
+    "967a1f4d-7e47-4498-837c-5d55984e1a68": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/SwapSticks.png",
+        "title": "SWAPSTICKS",
+        "text": "<p>Du bist es leid, deine Daumen für die Swap Sticks zu verkrampfen? Kein Problem, wir haben auch für deine \"Riesen-Pranken\" die passenden Swap Sticks!<\/p>"
+      }
+    },
+    "c3997009-eeea-4dca-bfa6-989c563b3b81": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/PS4_Curved-Paddles.png",
+        "title": "Curved Paddle",
+        "text": "<p>Die Curved-Paddles bieten ein ganz neues Spielgefühl. Sie wurden dem Griff des Controllers angepasst, sodass man ohne Aufwand die Paddles bedienen kann, ganz ohne Eingewöhnungsphase.<\/p>"
+      }
+    },
+    "560073a7-79f3-4b92-af36-89f4c4d917a7": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS4_Grip.png",
+        "title": "Pro - Grip",
+        "text": "<p>Keine Lust mehr auf abrutschende Finger?<br\/>Der Grip sorgt für den optimalen Halt und sorgt dafür, dass keine deiner Bewegungen mehr abweicht und jede Reaktion punktgenau landet.<\/p>"
+      }
+    },
+    "7d2b77db-8242-473e-ae77-192125199171": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": false,
+        "image": "shopify:\/\/shop_images\/PS4_TriggerStop.png",
+        "title": "SMART TRIGGER",
+        "text": "<p>Die neuen Smart-Trigger sind die Allrounder unter den Trigger. Sie bieten dir sofortiges Feedback mit dem klassischen *Klick* wie bei einer Maus, aber du hast dennoch die Möglichkeit, mit etwas mehr Druck den Trigger über den *Klick* hinaus, bis zum Anschlag durchzudrücken.<\/p>"
+      }
+    },
+    "a7adc572-7f12-44df-b54f-9685786f4499": {
+      "type": "text_with_icons",
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/PS4_Konfi.png",
+        "title": "Lieferumfang",
+        "text": "<ul><li>PS4 King Controller<\/li><li>Swapsticks in Größe S<\/li><\/ul>"
+      }
+    },
+    "d095e20f-7af3-4e93-afa3-be143c780822": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}",
+        ".twit_block {margin: 0 3rem;}",
+        "@media (min-width: 768px) {img {width: 50%; }}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATEN ZAHLEN.",
+        "text": "<h3>MIT KLARNA.<\/h3>"
+      }
+    },
+    "b8d6e32c-bb45-4ba8-85d4-c62aa0772937": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2,h3 {text-align: center;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Check das mal aus",
+        "html": ""
+      }
+    },
+    "4b8b520d-54c6-4f2e-9c7a-e036500fd4f5": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17943730356491__4b8b520d-54c6-4f2e-9c7a-e036500fd4f5-16867441458406dc1d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "ps4-controller",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17943730356491__4b8b520d-54c6-4f2e-9c7a-e036500fd4f5-16867441458406dc1d-0"
+      ],
+      "custom_css": [
+        "header {display: none;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c3279a73-b802-4ee5-936d-99e310342511",
+    "967a1f4d-7e47-4498-837c-5d55984e1a68",
+    "c3997009-eeea-4dca-bfa6-989c563b3b81",
+    "560073a7-79f3-4b92-af36-89f4c4d917a7",
+    "7d2b77db-8242-473e-ae77-192125199171",
+    "a7adc572-7f12-44df-b54f-9685786f4499",
+    "d095e20f-7af3-4e93-afa3-be143c780822",
+    "b8d6e32c-bb45-4ba8-85d4-c62aa0772937",
+    "4b8b520d-54c6-4f2e-9c7a-e036500fd4f5"
+  ]
+}

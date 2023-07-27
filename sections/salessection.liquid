@@ -1,0 +1,67 @@
+<div class="king_salesbox_container">
+  <div class="king_salesbox">
+    {% if section.settings.heading_multi != blank %}
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.heading_multi }}</h2>
+    {% endif %}
+    {% if section.settings.subtitle_multi != blank %}
+      <h5 class="black">{{ section.settings.subtitle_multi }}</h5>
+    {% endif %}
+    <div class="king__salesboxflex">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'salesbox_block' %}
+            <div class="king__salesboxflex-div">
+              <h2 class="size black">{{ block.settings.title }}</h2>
+              <p class="black">{{ block.settings.sales_block_subtitle }}</p>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Salesbox",
+  "settings": [
+    {
+      "id": "heading_multi",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "id": "subtitle_multi",
+      "label": "Subtitle",
+      "type": "text"
+    },
+    {
+      "id": "background_image",
+      "label": "Hintergrundbild",
+      "type": "image_picker"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "salesbox_block",
+      "name": "Sales Block",
+      "limit": 6,
+      "settings": [
+        {
+          "id": "title",
+          "label": "Heading",
+          "type": "text"
+        },
+        {
+          "id": "sales_block_subtitle",
+          "label": "Subtitle",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Salesbox"
+    }
+  ]
+}
+{% endschema %}

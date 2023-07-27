@@ -1,0 +1,42 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+
+<div class="seoBlocksContainer container">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when "heading_seo_block" %}
+      <div class="seoBlock">
+        <h2>{{ block.settings.seo_block_heading }}</h2>
+        <p>{{ block.settings.seo_block_txt }}</p>
+      </div>
+    {% endcase %}
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Seo-Block",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "heading_seo_block",
+        "name": "Seo Block",
+        "settings": [
+          {
+            "id": "seo_block_heading",
+            "label": "Heading",
+            "type": "text"
+          }, {
+            "id": "seo_block_txt",
+            "label": "Text",
+            "type": "richtext"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Seo-Block"
+      }
+    ]
+  }
+{% endschema %}

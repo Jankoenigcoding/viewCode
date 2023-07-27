@@ -1,0 +1,77 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .img_left{order:1}
+  .txt_right{order:2}
+  .imgRight{order:2}
+  .txt_left{order:1;}
+  @media only screen and (max-width:1000px){
+    .twit_blocks{flex-wrap:wrap;}
+    .twi_img{
+      order:1 !important;width:40% !important;
+    }
+    .twit_txt{order:2 !important;width:100%;}
+  }
+</style>
+<section class="twi_thumb twiThumb_{{ section.id }}">
+  <div class="twit_inner container">
+    <div class="twit_blocks">
+      <div class="twit_block twi_img {% if section.settings.img_left %}img_left{% else %}imgRight{% endif %}">
+        <img src="{{ section.settings.image | img_url: '4000x' }}">
+        {% if section.settings.image2 != blank %}<img src="{{ section.settings.image2 | img_url: '4000x' }}" class="thumb_img">{% endif %}
+      </div>
+      <div class="twit_block {% if section.settings.img_left %}txt_right{% else %}txt_left{% endif %}">
+        <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title }}</h2>
+        <div class="kingafter">
+          {{ section.settings.text }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Txt w Img Thumb",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "img_left",
+        "label": "Image Left",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Thumb Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "title",
+        "default": "Add a title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "presets":[
+      {
+        "name": "Txt w Img Thumb",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

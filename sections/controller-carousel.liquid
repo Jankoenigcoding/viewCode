@@ -1,0 +1,98 @@
+{{ 'mycustom.css' | asset_url | stylesheet_tag }}
+<div class="ContainerFullWidth" style="background-color: {{ section.settings.background_color_outside }};">
+  <div class="controllerContainer" style="background-color: {{ section.settings.background_color }};">
+    {% if section.settings.heading_controllercarousell != blank %}
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.heading_controllercarousell }}</h2>
+    {% endif %}
+
+    {% if section.settings.subtitle_controllercarousell != blank %}
+      <h5>{{ section.settings.subtitle_controllercarousell }}</h5>
+    {% endif %}
+
+    <div class="flex__container">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'controller_block' %}
+            <div class="flex__image">
+              <a href="{{ block.settings.controller_block_btnlink }}">
+                <img class="image__desktop" src="{{ block.settings.controller_block_img | img_url: '460x' }}">
+              </a>
+              <a href="{{ block.settings.controller_block_btnlink }}">
+                <img class="image__mobile" src="{{ block.settings.controller_block_img_mobile | img_url: '460x' }}">
+              </a>
+              <h3 class="h3__style">{{ block.settings.title }}</h3>
+              <a href="{{ block.settings.controller_block_btnlink }}" class="Button button__controller red">
+                {{- block.settings.controller_block_btntxt -}}
+              </a>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Controller Carousell",
+  "settings": [
+    {
+      "id": "heading_controllercarousell",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "id": "subtitle_controllercarousell",
+      "label": "Subtitle",
+      "type": "text"
+    },
+    {
+      "id": "background_color",
+      "label": "Background Color",
+      "type": "color"
+    },
+    {
+      "id": "background_color_outside",
+      "label": "Background Color Outside",
+      "type": "color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "controller_block",
+      "name": "Controller Block",
+      "limit": 3,
+      "settings": [
+        {
+          "id": "controller_block_img",
+          "label": "Desktop",
+          "type": "image_picker"
+        },
+        {
+          "id": "controller_block_img_mobile",
+          "label": "Mobil",
+          "type": "image_picker"
+        },
+        {
+          "id": "title",
+          "label": "Heading",
+          "type": "text"
+        },
+        {
+          "id": "controller_block_btntxt",
+          "label": "Button Text",
+          "type": "text"
+        },
+        {
+          "id": "controller_block_btnlink",
+          "label": "Button Link",
+          "type": "url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Controller Carousell"
+    }
+  ]
+}
+{% endschema %}

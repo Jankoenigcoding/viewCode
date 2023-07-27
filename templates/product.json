@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": true
+          }
+        },
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b": {
+          "type": "text_bulletpoints",
+          "disabled": true,
+          "settings": {
+            "text_bulletpoints": "<style>\nul.checklist {\n    list-style-type: none;\n    padding-left: 0;\n}\nul.checklist li:before {\n    content: '✔';\n    margin-right: 10px;\n}\n<\/style>\n\n<ul class=\"checklist\">\n    <li>test<\/li>\n    <li>Mega gutes Pad<\/li>\n    <li>Ultra gute Qualität<\/li>\n    <li>Fertiges Pad<\/li>\n<\/ul>"
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": true,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_label": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "c3a244d4-e0aa-4cff-b9c4-ac338ba76f83": {
+          "type": "paymentbuttons",
+          "settings": {
+          }
+        },
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1": {
+          "type": "description_01",
+          "settings": {
+            "title_description": "Beschreibung"
+          }
+        },
+        "cdab740a-35b0-40d6-bb38-699be89a1a07": {
+          "type": "content",
+          "settings": {
+            "title": "Versand",
+            "content": "",
+            "page": "versandkosten"
+          }
+        },
+        "daa2fd9c-e381-487d-ae56-ec32713629dc": {
+          "type": "benefits",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/klarna_icon_7fad701a-9b2c-4800-9314-68d79d0e5bc5.png",
+            "image2": "shopify:\/\/shop_images\/paypal2_icon_e444d04f-d647-4a6e-a356-4f006aa18d04.png",
+            "text1": "Bezahle nach 30 Tagen",
+            "text2": "Bezahle nach 30 Tagen"
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "bf8ee223-cd27-4b9e-95f8-673e9625000b",
+        "variant_selector",
+        "quantity_selector",
+        "buy_buttons",
+        "c3a244d4-e0aa-4cff-b9c4-ac338ba76f83",
+        "6fba4ded-12d9-44c9-bd89-2c9bbc4c73f1",
+        "cdab740a-35b0-40d6-bb38-699be89a1a07",
+        "daa2fd9c-e381-487d-ae56-ec32713629dc"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "2b5504b5-1dec-4227-8184-cbd430a64fab": {
+      "type": "text_with_icons",
+      "custom_css": [
+        ".twit_inner {background-color: #ffb1c7;}",
+        "section {margin: 3rem 0;}"
+      ],
+      "settings": {
+        "img_left": true,
+        "image": "shopify:\/\/shop_images\/Klarna_logo.png",
+        "title": "PER RATE ZAHLEN.",
+        "text": "<h3>MIT KLARNA.<\/h3>"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Check das mal aus",
+        "recommendations_count": 4,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2b5504b5-1dec-4227-8184-cbd430a64fab",
+    "product-recommendations"
+  ]
+}
